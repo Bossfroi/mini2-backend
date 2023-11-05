@@ -14,7 +14,7 @@ const data = require('./RouterServerSide/Userdata');
 
 
 app.use(cors(
-  {origin:['http://localhost:5173','']}
+  {origin:['http://localhost:5173','https://mini2-app.onrender.com/']}
 ));
 
 
